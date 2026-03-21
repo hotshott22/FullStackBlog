@@ -1,6 +1,6 @@
 <div align="center">
 
-# ✍️ Quillr
+# ✍️  full-stack blogging
 
 ### A modern full-stack blogging platform built with React 19 & Express 5
 
@@ -36,7 +36,7 @@
 
 ## 🧠 About the Project
 
-**Quillr** is a production-grade full-stack blog application that brings together the latest versions of React and Express to demonstrate real-world engineering patterns. It's not a tutorial toy — it's built like a product.
+** full-stack blog** is a production-grade full-stack blog application that brings together the latest versions of React and Express to demonstrate real-world engineering patterns. It's not a tutorial toy — it's built like a product.
 
 Users can **discover** posts with infinite scroll, **search and filter** by category, sort by trending or popularity, **write and publish** using a rich text editor with inline media uploads, and **engage** through an optimistic comment system. The platform supports **role-based access control** with admin capabilities like featuring and moderating content.
 
@@ -177,8 +177,8 @@ Users can **discover** posts with infinite scroll, **search and filter** by cate
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/yourusername/quillr.git
-cd quillr
+git clone https://github.com/yourusername/blog.git
+cd blog
 ```
 
 ### 2. Set up the Backend
@@ -349,7 +349,7 @@ GET /posts?cat=development&sort=trending&limit=5&page=1
 ## 📁 Project Structure
 
 ```
-quillr/
+blog/
 │
 ├── client/                          # React Frontend
 │   ├── public/                      # Static assets
@@ -549,7 +549,7 @@ sudo su - your-backend-user
 cd htdocs/blog-api.yourdomain.com
 
 # Clone & install
-git clone https://github.com/yourusername/quillr.git .
+git clone https://github.com/yourusername/blog.git .
 npm install
 
 # Create env file
@@ -567,7 +567,7 @@ pm2 save
 sudo su - your-frontend-user
 cd htdocs/blog.yourdomain.com
 
-git clone https://github.com/yourusername/quillr.git .
+git clone https://github.com/yourusername/blog.git .
 npm install --force
 nano .env  # paste all frontend env vars (use production HTTPS URLs)
 
